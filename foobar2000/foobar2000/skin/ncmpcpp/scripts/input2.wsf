@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<job id="IncludeExample">
+	<script language="VBScript">
+	<![CDATA[
+		Function WSHInputBox(Message, Title, Value)
+			WSHInputBox = InputBox(Message, Title, Value)
+		End Function
+	]]>
+	</script>
+	<script language="JScript">
+	<![CDATA[
+		var result = WSHInputBox("Search for a Shoutcast station...","Shoutcast Radio","");
+		if (result != null) {
+			var WshShell = new ActiveXObject("WScript.Shell");
+			var shout = "http://www.shoutcast.com/Internet-Radio/"+result;
+			WshShell.Run(shout);
+		}
+	]]>
+	</script>
+</job>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.5: http://docutils.sourceforge.net/" />
+<title>VirtuaSam v. 1.1</title>
+<style type="text/css">
+
+body
+{
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  margin: 1em;
+  margin-right: 14em;
+}
+
+p
+{
+  margin: 0.5em 0em;
+}
+
+td,
+th
+{
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  padding: 1px 3px;
+}
+
+th
+{
+  text-align: left;
+}
+
+h1,
+h2
+{
+  font-weight: bold;
+}
+
+h1.title
+{
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: #44618F;
+  color: white;
+}
+
+.section h1
+{
+  margin-top: 1.5em;
+  font-size: 1.4em;
+}
+
+.section h2
+{
+  font-size: 1em;
+}
+
+a
+{
+  color: #304364;
+  /*color: #448F81;*/
+  text-decoration: none;
+}
+
+table
+{
+  border-collapse: collapse;
+}
+
+dt
+{
+  margin-top: 0.6em;
+}
+
+dd
+{
+  margin-top: 0.3em;
+}
+
+#contents
+{
+  position: fixed;
+  top: 1em;
+  bottom: 1em;
+  right: 1em;
+  width: 12em;
+  background-color: #DEEAFF;
+}
+
+#contents .topic-title
+{
+  margin: 0em;
+  padding: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #44618F;
+  color: white;
+}
+
+#contents ul
+{
+  list-style-type: none;
+  padding-left: 0em;
+  margin-left: 0em;
+}
+
+#contents li
+{
+  text-align: center;
+}
+
+#contents a
+{
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.3em;
+}
+
+#contents a:hover
+{
+  color: white;
+  background-color: #44618F;
+}
+
+/*.tip*/
+/*{*/
+/*  padding: 4px;*/
+/*  background-color: #DEEAFF;*/
+/*  overflow: auto;*/
+/*}*/
+/**/
+/*.tip p*/
+/*{*/
+/*  margin: 4px;*/
+/*}*/
+/**/
+/*.tip .admonition-title*/
+/*{*/
+/*  float: left;*/
+/*  width: 35px;*/
+/*  height: 35px;*/
+/*  font-weight: bold;*/
+/*  border-right: 2px solid black;*/
+/*  margin-right: 8px;*/
+/*}*/
+.tip
+{
+  float: right;
+  width: 14em;
+  padding: 0em;
+  margin-left: 1em;
+  background-color: #DEEAFF;
+  overflow: auto;
+}
+
+.tip p
+{
+  padding: 0.5em;
+}
+
+.tip .admonition-title
+{
+  color: white;
+  background-color: #44618F;
+  font-weight: bold;
+  margin: 0em;
+  padding: 0.5em;
+}
+
+</style>
+</head>
+<body>
+<div class="document" id="virtuasam-v-1-1">
+<h1 class="title">VirtuaSam v. 1.1</h1>
+
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#intro" id="id1">Intro</a></li>
+<li><a class="reference internal" href="#installation" id="id2">Installation</a></li>
+<li><a class="reference internal" href="#instructions" id="id3">Instructions</a></li>
+<li><a class="reference internal" href="#reference" id="id4">Reference</a></li>
+<li><a class="reference internal" href="#version-history" id="id5">Version history</a></li>
+<li><a class="reference internal" href="#contact" id="id6">Contact</a></li>
+</ul>
+</div>
+<div class="section" id="intro">
+<h1>Intro</h1>
+<p>VirtuaSam is a <a class="reference external" href="http://www.samurize.com/">Samurize</a> plugin to interface with the virtual desktop manager
+<a class="reference external" href="http://virtuawin.sourceforge.net/">VirtuaWin</a>.</p>
+<p>As such, it can be seen as two things:</p>
+<ul class="simple">
+<li>A virtual desktop manager for Samurize (with a little help from VirtuaWin)</li>
+<li>A skinnable interface for VirtuaWin (with a little help from Samurize)</li>
+</ul>
+<p>VirtuaWin has no graphical interface of its own. It is controlled with the
+keyboard or through a systray icon, or as in this case, with an external
+application. This makes it an ideal companion for Samurize, providing virtual
+desktops integrated in your Samurize config.</p>
+<p>VirtuaSam is freeware.</p>
+</div>
+<div class="section" id="installation">
+<h1>Installation</h1>
+<p>Unpack the zip-file into your Samurize directory.</p>
+<p>You should now be able to use the VirtuaSam plugin in the Samurize config tool.
+You should also have a sample config called 'VirtuaSam' which demonstrates the
+various features of the plugin. You can study it for reference, or use it as a
+basis for your own config.</p>
+<p>Remember, you must have <a class="reference external" href="http://virtuawin.sourceforge.net/">VirtuaWin</a> installed and running for this plugin to
+work.</p>
+</div>
+<div class="section" id="instructions">
+<h1>Instructions</h1>
+<p>At this point, you should be familiar with making configs in Samurize. If not,
+check out the Samurize site for docs and tutorials etc.</p>
+<div class="section" id="creating-a-virtual-desktop-controller">
+<h2>Creating a virtual desktop controller</h2>
+<div class="tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">You can have different images for each control by naming them
+<tt class="docutils literal"><span class="pre">desktop1current.png</span></tt>, <tt class="docutils literal"><span class="pre">desktop1.png</span></tt>, <tt class="docutils literal"><span class="pre">desktop2current.png</span></tt>,
+<tt class="docutils literal"><span class="pre">desktop2.png</span></tt> etc.</p>
+</div>
+<p>The virtual desktop controller is made by adding an individual plugin meter for
+each desktop. The meter can be any display type that accepts text as input, but
+you will probably want to show an image.</p>
+<p>Prepare two images, one to show when the desktop is current, and one for when
+it's not. Which one is shown is determined by making the return value from the
+plugin part of the name, so the naming is important. You can call the first one
+<tt class="docutils literal"><span class="pre">desktopcurrent.png</span></tt> and the second one <tt class="docutils literal"><span class="pre">desktop.png</span></tt> (assuming it's png
+files).</p>
+<p>Follow these steps to create a virtual desktop controller in your config:</p>
+<ol class="arabic simple">
+<li>In Samurize, add a plugin meter and set the 'Draw Type' to 'Image'.</li>
+<li>On the 'Source' tab, select 'VirtuaSam.dll' as the plugin.</li>
+<li>Select 'isCurrentDesktop' as the function to run.</li>
+<li>In the dialog, enter '1' for desktop 1 and press 'OK'.</li>
+<li>Accept the default text 'current' by pressing 'OK'.</li>
+<li>Accept the default blank text by pressing 'OK'.</li>
+<li>On the 'Display' tab, enter <tt class="docutils literal"><span class="pre">&lt;path_to_images&gt;\desktop%v.png</span></tt>, where
+<tt class="docutils literal"><span class="pre">&lt;path_to_images&gt;</span></tt> is the path where you placed the images.</li>
+</ol>
+<p>Now you have a meter showing <tt class="docutils literal"><span class="pre">desktopcurrent.png</span></tt> if desktop 1 is the current
+one, and <tt class="docutils literal"><span class="pre">desktop.png</span></tt> if it is not. But you're not finished yet. You
+probably also want to be able to switch to desktop 1 when you click on the
+meter. This is done by setting up VirtuaSam as input plugin for the meter.</p>
+<div class="tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Adjust the refresh interval for the meter for faster update when you switch
+desktop (Remember to adjust the display refresh for the project as well). It
+wont make the switch faster, but you will get faster visual feedback.</p>
+</div>
+<ol class="arabic simple" start="8">
+<li>On the 'Input' tab, check 'Allow Input Controls' and click 'Add'.</li>
+<li>Select 'Plugin Input' and click 'Next'.</li>
+<li>Select 'VirtuaSam.dll' and click 'Next'.</li>
+<li>Select 'Left Mouse Click' and click 'Finished'.</li>
+</ol>
+<p>Now you can switch to desktop 1 by left clicking on the meter.</p>
+<p>You might have noticed the input option called 'Drag and Drop'. If you add this
+option as well, you will be able to drag and drop files on the meter, and have
+them launched on the corresponding desktop. Just repeat step 8-11, but select
+'Drag and Drop' in step 11.</p>
+<p>When you're done with the control for desktop 1, copy/paste the meter and
+adjust the parameters for the 'isCurrentDesktop' function for desktop 2, 3, 4
+etc.</p>
+</div>
+<div class="section" id="getting-a-desktop-screenshot-in-your-controller">
+<h2>Getting a desktop screenshot in your controller</h2>
+<p>As of version 3.1, VirtuaWin can generate screenshots of your Virtual desktops.
+This feature can be used in VirtuaSam to get desktop screenshots to represent
+your virtual desktops.</p>
+<p>The VirtuaWin image generation has to be triggered from VirtuaSam, so you need
+to create another plugin meter to take care of that.</p>
+<ol class="arabic simple">
+<li>Add a plugin meter.</li>
+<li>On the 'Source' tab, select 'VirtuaSam.dll' as the plugin.</li>
+<li>Select 'generateDesktopImage' as the function to run.</li>
+<li>In the dialog, enter the image height you want, and press 'OK' (The width
+will depend on the aspect ratio of your screen).</li>
+<li>Adjust the refresh interval for the meter to a couple of seconds.</li>
+</ol>
+<p>The function will return <tt class="docutils literal"><span class="pre">OK</span></tt> or <tt class="docutils literal"><span class="pre">ERR</span></tt> to make it easier to test your
+config. You probably don't want to see that when you're done fiddling around,
+so you can either put the meter behind another meter, or delete the <tt class="docutils literal"><span class="pre">%v</span></tt> from
+the 'Text' field on the 'Display' tab.</p>
+<div class="tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The screenshots generated by VirtuaWin are not antialiased. To get
+antialiased images in Samurize, set the image height to e.g. 4 times the
+desired height, and let Samurize do the antialiasing.</p>
+</div>
+<p>To put the actual screenshots in your config, add a plugin meter for each
+virtual desktop:</p>
+<ol class="arabic simple">
+<li>Set the 'Draw Type' to 'Image'.</li>
+<li>On the 'Source' tab, select 'VirtuaSam.dll' as the plugin.</li>
+<li>Select 'getDesktopImage' as the function to run.</li>
+<li>In the dialog, enter the desktop number and press 'OK'.</li>
+</ol>
+<p>You can add input events to switch between desktops on the screenshots, but you
+probably want to be able to see which desktop is the current as well. This can
+be achieved by adding a meter with <tt class="docutils literal"><span class="pre">isCurrentDesktop</span></tt>, as described above.
+Place the meter on top of the screenshot, and use semitransparent images, so that
+you will still be able to see the screenshots of the inactive desktops. Check
+the sample config for an example.</p>
+</div>
+</div>
+<div class="section" id="reference">
+<h1>Reference</h1>
+<div class="section" id="source-plugin">
+<h2>Source plugin</h2>
+<p>The plugin provides four source functions:</p>
+<dl class="docutils">
+<dt><tt class="docutils literal"><span class="pre">isCurrentDesktop</span></tt></dt>
+<dd><p class="first">Check if the specified desktop is the current one, and return one of two
+strings, according to the result. Takes the following parameters:</p>
+<ul class="last simple">
+<li>Desktop ID to check (1-9) (Also used as target by the input plugin)</li>
+<li>String to return if desktop is the current</li>
+<li>String to return if desktop is NOT the current</li>
+</ul>
+</dd>
+<dt><tt class="docutils literal"><span class="pre">getCurrentDesktop</span></tt></dt>
+<dd>Returns the current desktop number (1-9) as a string.</dd>
+<dt><tt class="docutils literal"><span class="pre">generateDesktopImage</span></tt></dt>
+<dd><p class="first">Tells VirtuaWin to generate a screenshot of the current screen.</p>
+<p>Parameter:</p>
+<ul class="simple">
+<li>The height of the generated image. The width will depend on the aspect
+ratio of your screen.</li>
+</ul>
+<p class="last">Returns <tt class="docutils literal"><span class="pre">OK</span></tt> or <tt class="docutils literal"><span class="pre">ERR</span></tt> to indicate the result of the operation.</p>
+</dd>
+<dt><tt class="docutils literal"><span class="pre">getDesktopImage</span></tt></dt>
+<dd><p class="first">Returns the path of the screenshot generated for the specified desktop.</p>
+<p>In fact, it doesn't return the actual path, but tries to reconstruct the path
+where VirtuaWin saves it's data. It works for me on both Windows XP and
+Vista, but if it for some reason doesn't work for you, just find the images
+yourself and use the actual path in your meter.</p>
+<p>Parameter:</p>
+<ul class="last simple">
+<li>Desktop ID (1-9) (Also used as target by the input plugin)</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="input-plugin">
+<h2>Input plugin</h2>
+<p>The plugin also functions as an input plugin. It provides the following actions:</p>
+<dl class="docutils">
+<dt>Left Mouse Click, Middle Mouse Click, Right Mouse Click</dt>
+<dd>Switch to the desktop specified in the <tt class="docutils literal"><span class="pre">isCurrentDesktop</span></tt> function of the
+current meter.</dd>
+<dt>Left Mouse Doubleclick</dt>
+<dd>Switch to and gather all windows on the desktop specified in the <tt class="docutils literal"><span class="pre">isCurrentDesktop</span></tt> function of the
+current meter.</dd>
+<dt>Drag and Drop</dt>
+<dd>Switch to and launch the dropped files on the desktop specified in the
+<tt class="docutils literal"><span class="pre">isCurrentDesktop</span></tt> function of the current meter.</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="version-history">
+<h1>Version history</h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">1.1:</th><td class="field-body"><ul class="first simple">
+<li>Support for VirtuaWin desktop screenshots</li>
+<li>New input action: Doubleclick to gather windows</li>
+</ul>
+</td>
+</tr>
+<tr class="field"><th class="field-name">1.0:</th><td class="field-body"><ul class="first last simple">
+<li>Initial release</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="contact">
+<h1>Contact</h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Homepage:</th><td class="field-body"><a class="reference external" href="http://niboan.dk/virtuasam.html">http://niboan.dk/virtuasam.html</a></td>
+</tr>
+<tr class="field"><th class="field-name">Main site:</th><td class="field-body"><a class="reference external" href="http://niboan.dk/">http://niboan.dk/</a></td>
+</tr>
+<tr class="field"><th class="field-name">email:</th><td class="field-body"><a class="reference external" href="mailto:niels&#64;niboan.dk">niels&#64;niboan.dk</a></td>
+</tr>
+<tr class="field"><th class="field-name">Jabber:</th><td class="field-body"><a class="reference external" href="xmpp:niels&#64;niboan.dk">niels&#64;niboan.dk</a></td>
+</tr>
+<tr class="field"><th class="field-name">ICQ:</th><td class="field-body">64338027</td>
+</tr>
+<tr class="field"><th class="field-name">MSN:</th><td class="field-body">niels&#64;niboan.dk</td>
+</tr>
+<tr class="field"><th class="field-name">AIM:</th><td class="field-body">niboan</td>
+</tr>
+</tbody>
+</table>
+<!-- External links: -->
+</div>
+</div>
+</body>
+</html>

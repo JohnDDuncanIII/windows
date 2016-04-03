@@ -1,0 +1,11 @@
+boundary = 0,0,272,108
+output = 0,0,0,0
+input = 24,30,127,33
+alternatives = 0,108,0,0
+icon = 200,31,32,32
+
+dropPathColor = 255,255,255
+dropPathFamily = Helvetica
+dropPathSize = 8
+dropPathWeight = 0
+dropPathItalics = 0

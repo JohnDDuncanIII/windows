@@ -1,0 +1,11 @@
+[Language]
+Start=随 Windows 一起启动
+Skin=外观
+Lang=语言
+Exclude=例外管理器
+About=关于本软件
+Exit=退出
+AddInclude=添加到支持列表
+AddExclude=添加到例外列表
+DelInclude=不再使用该支持
+DelExclude=不再使用该例外

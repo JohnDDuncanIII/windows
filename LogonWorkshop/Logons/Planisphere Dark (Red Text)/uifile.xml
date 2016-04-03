@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<duixml>
+  <MainFrame resid="MainFrame" sheet="MainFrameStyle" layout="verticalflowlayout(1,2,2,2)">
+    <element layout="filllayout()" width="2560rp" height="1600rp" id="atom(InsideFrame)">
+      <element layout="flowlayout(0, 0, 0, 0)" padding="rect(5rp,5rp,5rp,5rp)" sheet="OptionsStyle">
+        <element id="atom(LanguageBarParent)" layout="filllayout()" visible="false" />
+      </element>
+      <element layout="borderlayout()">
+        <element layoutpos="client" layout="verticalflowlayout(1,2,2,2)">
+          <element layout="filllayout()">
+            <element id="atom(Locked)" visible="false" layout="verticalflowlayout(1,2,2,2)">
+              <element id="atom(LockedMessage)" />
+              <element id="atom(LockedSubMessage)" />
+            </element>
+            <element id="atom(Window)" layout="borderlayout()">
+              <element id="atom(InsideWindow)" layoutpos="client" layout="filllayout()">
+                <UserList id="atom(LogonUserList)" visible="false" layout="filllayout()" />
+                <UserList id="atom(PLAPUserList)" visible="false" layout="filllayout()" />
+                <element id="atom(SecurityOptions)" layout="verticalflowlayout(1,2,2,1)" visible="false">
+                  <element layout="verticalflowlayout(0,0,0,1)" sheet="CommandLinks" padding="rect(0rp, 9rp, 0rp, 9rp)">
+                    <button id="atom(SecurityLock)" accname="resstr(12136)" layoutpos="none" layout="flowlayout()" margin="rect(0rp, 0rp, 0rp, 6rp)" class="SecurityCommandLink">
+                      <element content="resstr(12113)" shortcut="auto" />
+                    </button>
+                    <button id="atom(SecuritySwitchUser)" accname="resstr(12140)" layoutpos="none" layout="flowlayout()" margin="rect(0rp, 0rp, 0rp, 6rp)" class="SecurityCommandLink">
+                      <element content="resstr(12123)" shortcut="auto" />
+                    </button>
+                    <button id="atom(SecurityLogOff)" accname="resstr(12137)" layoutpos="none" layout="flowlayout()" margin="rect(0rp, 0rp, 0rp, 6rp)" class="SecurityCommandLink">
+                      <element content="resstr(12114)" shortcut="auto" />
+                    </button>
+                    <button id="atom(SecurityChange)" accname="resstr(12138)" layoutpos="none" layout="flowlayout()" margin="rect(0rp, 0rp, 0rp, 6rp)" class="SecurityCommandLink">
+                      <element content="resstr(12115)" shortcut="auto" />
+                    </button>
+                    <button id="atom(SecurityTaskManager)" accname="resstr(12139)" layoutpos="none" layout="flowlayout()" margin="rect(0rp, 0rp, 0rp, 6rp)" class="SecurityCommandLink">
+                      <element content="resstr(12116)" shortcut="auto" />
+                    </button>
+                  </element>
+                </element>
+                <element id="atom(MessageFrame)" layout="filllayout()" visible="false">
+                  <element id="atom(FullMessageFrame)" layout="borderlayout()">
+                    <macro layoutpos="bottom" expand="hr" margin="rect(0,0,0,8rp)" id="atom(LowerDiv)" />
+                    <StyledScrollviewer sheet="ScrollStyle" id="atom(MessageScrollviewer)" xscrollable="false" padding="rect(0rp,0rp,0rp,0rp)" layoutpos="bottom" width="600rp" height="300rp">
+                      <element layoutpos="top" sheet="MainFrameStyle" id="atom(Message)" width="600rp" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" contentalign="wrapleft" accessible="true" accrole="41" />
+                    </StyledScrollviewer>
+                    <macro expand="hr" layoutpos="bottom" id="atom(UpperDiv)" margin="rect(0rp, 5rp, 0rp, 0rp)" />
+                    <element layoutpos="bottom" layout="flowlayout()">
+                      <element layout="flowlayout(0,2,1)" padding="rect(0rp,0rp,8rp,0rp)">
+                        <element id="atom(FullIcon)" width="sysmetric(11)" height="sysmetric(12)" />
+                      </element>
+                      <element id="atom(MessageCaption)" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" accessible="true" accrole="41" />
+                    </element>
+                  </element>
+                  <element id="atom(ShortMessageFrame)" layout="borderlayout()" height="406rp" width="600rp">
+                    <element layoutpos="bottom" layout="flowlayout(1,1,2,2)" padding="rect(0rp,0rp,0rp,0rp)">
+                      <StyledScrollviewer layoutpos="bottom" sheet="ScrollStyle" id="atom(ShortScrollviewer)" xscrollable="false" margin="rect(8rp, 10rp, 0rp, 0rp)">
+                        <element layout="flowlayout(0, 0, 0, 0)" padding="rect(4rp, 0rp, 4rp, 0rp)">
+                          <element id="atom(ShortIcon)" width="sysmetric(11)" height="sysmetric(12)" />
+                          <element sheet="MainFrameStyle" id="atom(ShortMessage)" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" contentalign="wrapleft" accessible="true" accrole="41" padding="rect(8rp, 10rp, 0rp, 0rp)" />
+                        </element>
+                      </StyledScrollviewer>
+                    </element>
+                  </element>
+                  <element id="atom(ConnectMessageFrame)" layout="verticalflowlayout(1,2,2,2)">
+                    <element id="atom(ConnectMessage)" foreground="argb(255, 147, 22, 22)" contentalign="wrapcenter" accessible="true" accrole="41" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" />
+                  </element>
+                </element>
+              </element>
+              <element id="atom(DialogButtonFrame)" layout="flowlayout(0,1,2,2)" sheet="OptionsStyle" padding="rect(0rp, 10rp, 0rp, 0rp)" margin="rect(0rp, 30rp, 0rp, 5rp)">
+                <button id="atom(SwitchUser)" height="35rp" content="resstr(12123)" accname="resstr(12140)" class="GenericButton" visible="false" shortcut="auto" />
+                <button id="atom(OtherTiles)" content="resstr(12129)" accname="resstr(12141)" class="GenericButton" visible="false" shortcut="auto" />
+                <button id="atom(Ok)" height="35rp" content="resstr(12125)" accname="resstr(12125)" class="GenericButton" visible="false" />
+                <button id="atom(Yes)" height="35rp" content="resstr(12126)" accname="resstr(12126)" class="GenericButton" visible="false" />
+                <button id="atom(No)" height="35rp" content="resstr(12127)" accname="resstr(12127)" class="GenericButton" visible="false" />
+                <button id="atom(Cancel)" height="35rp" content="resstr(12124)" accname="resstr(12124)" class="GenericButton" visible="false" />
+              </element>
+            </element>
+          </element>
+          <element id="atom(Status)" visible="false" Enabled="false" layout="flowlayout(0,0,2,2)" minsize="size(0rp,36rp)">
+            <DUIAnimationStrip id="atom(WaitAnimation)" width="20rp" height="20rp" margin="rect(0rp,0rp,5rp,0rp)" />
+            <element id="atom(StatusText)" />
+          </element>
+        </element>
+        <element layout="borderlayout()">
+          <element id="atom(SoftKeyboardParent)" layout="borderlayout()" layoutpos="none" />
+          <element id="atom(Options)" layoutpos="bottom" visible="true" enabled="true" sheet="OptionsStyle" layout="filllayout()" height="0rp">
+            <element layout="verticalflowlayout(0,2,2,2)">
+              <element id="atom(Branding)" />
+            </element>
+            <element id="atom(OptionsButton)" layout="borderlayout()" padding="rect(34rp, 34rp, 34rp, 34rp)">
+              <button id="atom(Accessibility)" tooltip="true" layoutpos="left" />
+              <button id="atom(ToggleTabletKeyboard)" tooltip="true" layoutpos="none" />
+              <element layout="flowlayout(0,1,2,2)" layoutpos="right">
+                <button id="atom(ShowPLAP)" accname="resstr(12134)" accdesc="resstr(12134)" tooltip="true" visible="false" />
+                <button id="atom(DisconnectPLAP)" content="resstr(12135)" accname="resstr(12135)" accdesc="resstr(12135)" tooltip="true" visible="false" class="GenericButton" />
+                <element id="atom(ShutDownFrame)" layout="flowlayout()">
+                  <button id="atom(ShutDown)" accname="resstr(12128)" tooltip="true" />
+                  <button id="atom(ShutDownOptions)" accname="resstr(12131)" accdesc="resstr(12131)" tooltip="true" />
+                </element>
+              </element>
+            </element>
+          </element>
+        </element>
+      </element>
+    </element>
+  </MainFrame>
+  <element resid="LabeledCheckboxTemplate" layout="flowlayout(0,2,0,2)" sheet="CheckboxStyle">
+    <element id="atom(ForceHeight)" width="0rp" height="30rp" />
+    <button id="atom(Checkbox)" />
+    <element id="atom(Label)" />
+  </element>
+  <element resid="FieldContainerTemplate" layout="flowlayout(0,2,0,2)" sheet="UsersStyle">
+    <element id="atom(ForceCenter)" width="34rp" height="30rp" layoutpos="None" />
+    <element id="atom(FieldParent)" layout="filllayout()" />
+    <Button id="atom(Submit)" width="0rp" height="0rp" accessible="true" accrole="43" layout="flowlayout(0,2,0,2)" class="SubmitButton" />
+  </element>
+  <element resid="UserListTemplate" height="475rp" sheet="UsersStyle" layoutpos="client" layout="filllayout()">
+    <styledscrollviewer id="atom(UserListFrame)" sheet="ScrollStyle" xscrollable="false">
+      <selector id="atom(UserList)" sheet="UsersStyle" layout="flowlayout(1,1,0,0)" padding="rect(12rp, 0, 0, 0)" />
+    </styledscrollviewer>
+  </element>
+  <UserTile resid="UserTileTemplate" margin="rect(0rp,10rp,0rp,10rp)" layout="verticalflowlayout(0,2,2)" sheet="UsersStyle">
+    <ZoomableElement id="atom(PictureContainer)" layout="filllayout()">
+      <ZoomableElement layoutpos="client" layout="borderlayout()" id="atom(PicturePadding)">
+        <ZoomableElement id="atom(Picture)" layoutpos="client" />
+      </ZoomableElement>
+      <ZoomableElement id="atom(Overlay)" layoutpos="client" />
+    </ZoomableElement>
+    <element layout="verticalflowlayout(0,0,2)">
+      <element id="atom(SelectorFieldFrame)" margin="rect(0rp,0rp,0rp,5rp)" layout="verticalflowlayout(0,0,2)" />
+      <element layout="flowlayout(1,1,0,1)">
+        <element id="atom(NonSelectorFieldsFrame)" visible="false" layout="verticalflowlayout(0,0,2)" />
+      </element>
+      <element layout="borderlayout()">
+        <element layoutpos="left" width="0rp" height="sysmetric(50)" />
+        <element id="atom(CapsLockWarning)" layoutpos="none" layout="flowlayout(0,2,2,2)">
+          <element contentalign="middlecenter" content="icon(84, sysmetric(49), sysmetric(50), library(imageres.dll))" />
+          <element content="resstr(11403)" />
+        </element>
+      </element>
+    </element>
+    <element class="HorizontalViewSpacer" />
+  </UserTile>
+  <stylesheets>
+    <style resid="CheckboxStyle">
+      <element background="argb(0, 0, 0, 0)" foreground="white" fontface="resstr(12112)" />
+      <if id="atom(Checkbox)">
+        <button width="sysmetric(71)" height="sysmetric(72)" margin="rect(0rp, 0rp, 5rp, 0rp)" />
+        <if keyfocused="true">
+          <button contentalign="focusrect" />
+        </if>
+      </if>
+      <if id="atom(Label)">
+        <button width="sysmetric(71)" height="sysmetric(72)" margin="rect(0rp, 0rp, 5rp, 0rp)" />
+      </if>
+    </style>
+    <style resid="OptionsStyle">
+      <if visible="false">
+        <element width="0rp" height="0rp" layoutpos="none" accessible="false" />
+        <button width="0rp" height="0rp" layoutpos="none" accessible="false" />
+      </if>
+      <if enabled="false">
+        <element visible="false" />
+        <button visible="false" />
+      </if>
+      <element background="argb(0, 0, 0, 0)" foreground="white" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" />
+      <button foreground="argb(255, 147, 22, 22)" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" contentalign="middlecenter" margin="rect(6rp, 0rp, 6rp, 0rp)" accessible="true" accrole="43" />
+      <if class="GenericButton">
+        <button minsize="size(93rp,28rp)" padding="rect(0rp, 0rp, 0rp, 0rp)" borderthickness="rect(4rp, 2rp, 4rp, 2rp)" background="resbmp(12263,7,-1,0,0,1,1)" bordercolor="gray" borderstyle="raised" />
+        <if keyfocused="true">
+          <button background="resbmp(12259,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if mousefocused="true">
+          <button background="resbmp(12260,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if mousefocused="true" keyfocused="true" pressed="false">
+          <button background="resbmp(12261,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if pressed="true">
+          <button background="resbmp(12262,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="sunken" />
+        </if>
+      </if>
+      <if id="atom(Accessibility)">
+        <button width="0rp" height="0rp" padding="rect(0rp, 0rp, 0rp, 0rp)" borderthickness="rect(4rp, 2rp, 4rp, 2rp)" content="resbmp(12213,2,-1,0,0,0,1)" accname="resstr(12122)" accdesc="resstr(12122)" background="resbmp(9,7,-1,0,0,1,1)" bordercolor="gray" borderstyle="raised" />
+        <if keyfocused="true">
+          <button background="resbmp(5,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if mousefocused="true">
+          <button background="resbmp(6,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if keyfocused="true" mousefocused="true" pressed="false">
+          <button background="resbmp(7,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if pressed="true">
+          <button background="resbmp(8,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="sunken" />
+        </if>
+      </if>
+      <if id="atom(ToggleTabletKeyboard)">
+        <button width="45rp" height="28rp" padding="rect(0,0,0,0)" content="resbmp(12214,2,-1,0,0,0,1)" accname="resstr(12142)" accdesc="resstr(12142)" borderthickness="rect(4rp, 2rp, 4rp, 2rp)" background="resbmp(12268,7,-1,0,0,1,1)" bordercolor="gray" borderstyle="raised" />
+        <if keyfocused="true">
+          <button borderthickness="rect(4rp, 2rp, 4rp, 2rp)" background="resbmp(12264,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if mousefocused="true">
+          <button borderthickness="rect(4rp, 2rp, 4rp, 2rp)" background="resbmp(12265,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if keyfocused="true" mousefocused="true" pressed="false">
+          <button borderthickness="rect(4rp, 2rp, 4rp, 2rp)" background="resbmp(12266,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if pressed="true">
+          <button borderthickness="rect(4rp, 2rp, 4rp, 2rp)" background="resbmp(12267,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="sunken" />
+        </if>
+      </if>
+      <if id="atom(ShowPLAP)">
+        <button width="58rp" height="28rp" borderthickness="rect(4rp, 3rp, 4rp, 3rp)" background="resbmp(12268,7,-1,0,0,1,1)" content="resbmp(12232,2,-1,0,0,1,1)" bordercolor="gray" borderstyle="raised" />
+        <if keyfocused="true">
+          <button background="resbmp(12264,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if mousefocused="true">
+          <button background="resbmp(12265,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if mousefocused="true" keyfocused="true" pressed="false">
+          <button background="resbmp(12266,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if pressed="true">
+          <button background="resbmp(12267,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="sunken" />
+        </if>
+      </if>
+      <if id="atom(ShutdownFrame)">
+        <element margin="rect(6rp, 0rp, 6rp, 0rp)" />
+      </if>
+      <if id="atom(Shutdown)">
+        <button width="38rp" height="28rp" borderthickness="rect(4rp, 2rp, 4rp, 2rp)" padding="rect(0rp, 0rp, 0rp, 0rp)" background="resbmp(12307,7,-1,0,0,1,1)" content="resbmp(12215,2,-1,0,0,0,1)" margin="rect(0,0,0,0)" accdesc="resstr(12128)" bordercolor="gray" borderstyle="raised" />
+        <if selected="true">
+          <button content="resbmp(12216,2,-1,0,0,1,1)" accdesc="resstr(12133)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if keyfocused="true">
+          <button background="resbmp(12304,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if mousefocused="true">
+          <button background="resbmp(12305,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if mousefocused="true" keyfocused="true" pressed="false">
+          <button background="resbmp(12303,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if pressed="true">
+          <button background="resbmp(12306,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="sunken" />
+        </if>
+      </if>
+      <if id="atom(ShutdownOptions)">
+        <button width="20rp" height="28rp" content="resbmp(12217,2,-1,0,0,1,1)" background="resbmp(12313,7,-1,0,0,1,1)" borderthickness="rect(4rp, 2rp, 4rp, 2rp)" padding="rect(0rp, 0rp, 0rp, 0rp)" margin="rect(0rp, 0rp, 0rp, 0rp)" bordercolor="gray" borderstyle="raised" />
+        <if keyfocused="true">
+          <button background="resbmp(12310,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if mousefocused="true">
+          <button background="resbmp(12311,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if mousefocused="true" keyfocused="true" pressed="false">
+          <button background="resbmp(12309,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+        </if>
+        <if pressed="true">
+          <button background="resbmp(12312,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="sunken" />
+        </if>
+      </if>
+      <if id="atom(CancelPLAP)">
+        <button visible="false" />
+      </if>
+      <if id="atom(DisconnectPLAP)">
+        <button visible="false" />
+      </if>
+      <if id="atom(ShowPLAP)">
+        <button visible="false" />
+      </if>
+    </style>
+    <style resid="MainFrameStyle">
+      <if visible="false">
+        <element width="0rp" height="0rp" layoutpos="none" accessible="false" />
+        <button width="0rp" height="0rp" layoutpos="none" accessible="false" />
+      </if>
+      <if enabled="false">
+        <element visible="false" />
+        <button visible="false" />
+      </if>
+      <element foreground="argb(255, 147, 22, 22)" background="argb(0,0,0,0)" />
+      <if id="atom(WaitAnimation)">
+        <if visible="false">
+          <DUIAnimationStrip width="0rp" height="0rp" layoutpos="none" accessible="false" />
+        </if>
+      </if>
+      <if id="atom(StatusText)">
+        <element foreground="argb(255, 147, 22, 22)" contentalign="wrapcenter" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" accessible="true" accrole="41" />
+      </if>
+      <if id="atom(Locked)">
+        <element contentalign="wrapleft" padding="rect(0rp,10rp,0rp,0rp)" />
+      </if>
+      <if id="atom(LockedMessage)">
+        <element font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" padding="rect(34rp,0rp,34rp,0rp)" contentalign="wrapcenter" accessible="true" accrole="41" />
+      </if>
+      <if id="atom(LockedSubMessage)">
+        <element font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" contentalign="wrapcenter" padding="rect(0rp,10rp,0rp,10rp)" accessible="true" accrole="41" />
+      </if>
+      <if id="atom(SecurityOptions)">
+        <element contentalign="middlecenter" />
+      </if>
+      <if id="atom(SecurityInformation)">
+        <element contentalign="wrapleft" padding="rect(0rp, 0rp, 0rp, 20rp)" accessible="true" accrole="41" />
+      </if>
+      <button foreground="argb(255, 50, 205, 222)" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" fontface="resstr(12112)" cursor="arrow" accessible="true" accrole="43" />
+      <MainFrame background="gradient(rgb(0,132,217), rgb(0,36,58), 1)" accessible="true" accrole="9" accname="resstr(12132)" />
+    </style>
+    <style resid="UsersStyle">
+      <if visible="false">
+        <element width="0rp" height="0rp" layoutpos="none" accessible="false" />
+        <button width="0rp" height="0rp" layoutpos="none" accessible="false" />
+        <UserTile width="0rp" height="0rp" layoutpos="none" accessible="false" />
+      </if>
+      <if class="HorizontalViewSpacer">
+        <element height="0rp" width="80rp" />
+      </if>
+      <UserTile accessible="true" accrole="34" accstate="0" />
+      <if selected="true">
+        <UserTile accstate="2" />
+      </if>
+      <if TileZoomed="false">
+        <UserTile height="123rp" />
+      </if>
+      <if id="atom(PictureContainer)">
+        <if ElementZoomed="true">
+          <ZoomableElement width="0rp" height="0rp" />
+        </if>
+        <if ElementZoomed="false">
+          <ZoomableElement width="0rp" height="0rp" />
+        </if>
+      </if>
+      <if id="atom(PicturePadding)">
+        <if ElementZoomed="true">
+          <ZoomableElement padding="rect(32rp, 32rp, 32rp, 32rp)" />
+        </if>
+        <if ElementZoomed="false">
+          <ZoomableElement padding="rect(16rp, 16rp, 16rp, 16rp)" />
+        </if>
+      </if>
+      <if id="atom(Overlay)">
+        <if ElementZoomed="true">
+          <ZoomableElement width="0rp" height="0" borderthickness="rect(1rp, 1rp, 1rp, 1rp)" background="resbmp(12223,7,-1,0,0,1,1)" />
+          <if HighDPI="true">
+            <ZoomableElement background="resbmp(12238, 7,-1,0,0,1,1)" />
+          </if>
+        </if>
+        <if ElementZoomed="false">
+          <ZoomableElement width="0rp" height="0rp" borderthickness="rect(16rp, 16rp, 16rp, 16rp)" background="resbmp(12222,7,-1,0,0,1,1)" />
+          <if HighDPI="true">
+            <ZoomableElement background="resbmp(12237, 7,-1,0,0,1,1)" />
+          </if>
+          <if selected="true">
+            <ZoomableElement background="resbmp(12219,7,-1,0,0,1,1)" />
+            <if HighDPI="true">
+              <ZoomableElement background="resbmp(12234, 7,-1,0,0,1,1)" />
+            </if>
+          </if>
+          <if mousefocused="true">
+            <ZoomableElement background="resbmp(12218,7,-1,0,0,1,1)" />
+            <if HighDPI="true">
+              <ZoomableElement background="resbmp(12233, 7,-1,0,0,1,1)" />
+            </if>
+          </if>
+          <if selected="true" mousefocused="true">
+            <ZoomableElement background="resbmp(12220,7,-1,0,0,1,1)" />
+            <if HighDPI="true">
+              <ZoomableElement background="resbmp(12235, 7,-1,0,0,1,1)" />
+            </if>
+          </if>
+        </if>
+      </if>
+      <if id="atom(Picture)">
+        <if ElementZoomed="true">
+          <ZoomableElement width="0rp" height="0rp" />
+        </if>
+        <ZoomableElement width="0rp" height="0rp" accessible="true" accrole="40" accname="resstr(11400)" />
+      </if>
+      <if class="Link">
+        <button font="5;normal;shadow|underline;Kroeger 05_55" shadowintensity="75" cursor="hand" contentalign="middlecenter" />
+        <if keyfocused="true">
+          <button contentalign="middlecenter|focusrect" />
+        </if>
+        <if mousefocused="true">
+          <button fontstyle="underline" />
+        </if>
+      </if>
+      <if class="SmallText">
+        <ZoomableElement font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" contentalign="topcenter | endellipsis" />
+        <if ElementZoomed="true">
+          <ZoomableElement cursor="arrow" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" />
+        </if>
+      </if>
+      <if class="LargeText">
+        <ZoomableElement font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" contentalign="topcenter | endellipsis" />
+        <if ElementZoomed="true">
+          <ZoomableElement cursor="arrow" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" />
+        </if>
+      </if>
+      <RestrictedEdit width="225rp" height="20rp" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" margin="rect(0rp, 0rp, 0rp, 0rp)" padding="rect(0rp, 1rp, 0rp, 0rp)" borderthickness="rect(4rp, 4rp, 4rp, 4rp)" bordercolor="gray" accessible="true" accrole="42" background="resbmp(11003, 7,-1,0,0,1,1)" />
+      <if mousefocused="true">
+        <RestrictedEdit background="resbmp(11002, 7,-1,0,0,1,1)" bordercolor="windowtext" />
+      </if>
+      <if keyfocused="true">
+        <RestrictedEdit background="resbmp(11001, 7,-1,0,0,1,1)" bordercolor="windowtext" />
+      </if>
+      <if enabled="false">
+        <RestrictedEdit background="resbmp(11000, 7,-1,0,0,1,1)" />
+      </if>
+      <if class="PasswordEdit">
+        <RestrictedEdit accstate="0x20000000" />
+      </if>
+      <DUIComboBox width="225rp" height="25rp" font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" margin="rect(0rp, 4rp, 0rp, 0rp)" padding="rect(0rp, 1rp, 0rp, 0rp)" accessible="true" />
+      <if id="atom(Submit)">
+        <Button background="resbmp(12282,7,-1,0,0,1,1)" margin="rect(4rp, 0rp, 0rp, 0rp)" visible="false" enabled="false" borderthickness="rect(1rp, 1rp, 1rp, 1rp)" bordercolor="gray" borderstyle="raised" />
+        <if HighDPI="true">
+          <Button background="resbmp(12285,7,-1,0,0,1,1)" />
+        </if>
+        <if keyfocused="true">
+          <Button background="resbmp(12280,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+          <if HighDPI="true">
+            <Button background="resbmp(12283,7,-1,0,0,1,1)" />
+          </if>
+        </if>
+        <if mousefocused="true">
+          <Button background="resbmp(12280,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+          <if HighDPI="true">
+            <Button background="resbmp(12283,7,-1,0,0,1,1)" />
+          </if>
+        </if>
+        <if pressed="true">
+          <Button background="resbmp(12281,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="sunken" />
+          <if HighDPI="true">
+            <Button background="resbmp(12284,7,-1,0,0,1,1)" />
+          </if>
+        </if>
+      </if>
+    </style>
+    <style resid="ScrollStyle">
+      <Viewer layoutpos="nineclient" margin="rect(0rp,  0rp, 12rp,  0rp)" />
+      <Scrollbar padding="rect(0, 0, 0, 0)" />
+      <if visible="false">
+        <Scrollbar layoutpos="none" />
+        <RepeatButton accessible="false" />
+        <Thumb accessible="false" />
+      </if>
+      <if vertical="true">
+        <ScrollBar layoutpos="nineright" />
+      </if>
+      <if id="atom(lineup)">
+        <RepeatButton accessible="true" content="resbmp(12204,2,-1,0,0,1,1)" contentalign="bottomcenter" accname="resstr(12117)" accrole="43" />
+        <if pressed="true">
+          <RepeatButton content="resbmp(12206,2,-1,0,0,1,1)" />
+        </if>
+        <if mousefocused="true">
+          <RepeatButton content="resbmp(12205,2,-1,0,0,1,1)" />
+        </if>
+      </if>
+      <if id="atom(pageup)">
+        <RepeatButton accessible="true" accname="resstr(12118)" accrole="43" />
+      </if>
+      <Thumb borderthickness="rect(1rp, 10rp, 1rp, 10rp)" background="resbmp(12201, 7,-1,0,0,1,1)" content="resbmp(12210,2,-1,0,0,1,1)" contentalign="middlecenter" accessible="true" accname="resstr(12119)" accrole="39" />
+      <if pressed="true">
+        <Thumb background="resbmp(12203, 7,-1,0,0,1,1)" content="resbmp(12212,2,-1,0,0,1,1)" />
+      </if>
+      <if mousefocused="true" pressed="false">
+        <Thumb background="resbmp(12202, 7,-1,0,0,1,1)" content="resbmp(12211,2,-1,0,0,1,1)" />
+      </if>
+      <if id="atom(pagedown)">
+        <RepeatButton accessible="true" accname="resstr(12120)" accrole="43" />
+      </if>
+      <if id="atom(linedown)">
+        <RepeatButton accessible="true" content="resbmp(12207,2,-1,0,0,1,1)" contentalign="topcenter" accname="resstr(12121)" accrole="43" />
+        <if pressed="true">
+          <RepeatButton content="resbmp(12209,2,-1,0,0,1,1)" />
+        </if>
+        <if mousefocused="true">
+          <RepeatButton content="resbmp(12208,2,-1,0,0,1,1)" />
+        </if>
+      </if>
+    </style>
+    <style resid="CommandLinks">
+      <button layoutpos="top" contentalign="middleleft" content="resbmp(12227,2,-1,0,0,1,1)" background="resbmp(12325,7,-1,0,0,1,1)" borderthickness="rect(5rp, 5rp, 5rp, 5rp)" padding="rect(1rp, 0rp, 6rp, 1rp)" accessible="true" accrole="43" minsize="size(190rp,26rp)" bordercolor="gray" borderstyle="raised" />
+      <element font="5;normal;shadow;Kroeger 05_55" shadowintensity="75" contentalign="middleleft" padding="rect(20rp, 0rp, 0rp, 1rp)" background="argb(0,0,0,0)" />
+      <if keyfocused="true">
+        <button content="resbmp(12224,2,-1,0,0,1,1)" background="resbmp(12228,7,-1,0,0,1,1)" bordercolor="gray" borderstyle="solid" />
+      </if>
+      <if mousefocused="true">
+        <button content="resbmp(12225,2,-1,0,0,1,1)" background="resbmp(12229,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="solid" />
+      </if>
+      <if pressed="true">
+        <button content="resbmp(12226,2,-1,0,0,1,1)" background="resbmp(12230,7,-1,0,0,1,1)" bordercolor="windowtext" borderstyle="sunken" />
+      </if>
+    </style>
+  </stylesheets>
+  <element resid="hr" height="1" background="gradient(argb(100,140,180,180),argb(160,140,160,220),argb(60,140,220,240),3)" />
+</duixml>

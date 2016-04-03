@@ -1,0 +1,25 @@
+QLineEdit#input {
+	font:  15pt "PreludeFLF";
+	border-width: 0px;
+	background-color: rgba(0,0,0,0%);
+	border-style: solid;
+	color: rgb(26,26,26);
+}
+
+#output {
+	font:  9pt "Helvetica";
+	border-width: 0px;
+
+	background-color: rgba(0,0,0,0%);
+	border-style: solid;
+	color: rgb(0,0,0);
+}
+
+QListWidget#alternatives {
+	font:  8pt "Helvetica";
+	border-width: 0px;
+	background-color: rgb(255,255,255);
+	alternate-background-color: rgb(255,255,255);
+	border-style: solid;
+	color: rgb(0,0,0);
+}

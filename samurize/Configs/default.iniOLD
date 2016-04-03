@@ -1,0 +1,867 @@
+[Project]
+FileVersion=v1.64.3
+ProjectName=Samurize Config
+OffsetX=0
+OffsetY=0
+Width=2560
+Height=85
+Interval=1000
+CPUAffinity=2
+DesignArea=0
+DesignHeight=1440
+DesignWidth=2560
+PauseKey=
+ReloadKey=
+ToggleTrayIconKey=
+EditConfigKey=
+ToggleVisibilityKey=
+OnTopKey=
+NormalWindowKey=
+PinKey=
+LockedKey=
+DesignedKey=
+ClickThruKey=
+SnapKey=
+ExitKey=
+SnapClientKey=
+OnTopAbsKey=
+PinCompatibleKey=
+AppBarTop=
+AppBarLeft=
+AppBarBottom=
+AppBarRight=
+LoadMBMStarter=0
+ShowTrayIcon=1
+TrayIcon=
+TrayHideIcon=
+ChangeCursorOverLink=0
+FadeType=1
+FadeTime=1000
+DoubleClickWait=0
+
+[Group Default]
+Name=Samurize Config
+
+[Group 0]
+Name=VWM2
+
+[Meter 0]
+Name=Graphics 1
+Group=
+Locking=0
+
+[Source 0]
+Type=TNullCollector
+
+[Output 0]
+Type=TImageOutput
+FilePath=skins\taskbar\background.png
+MasterAlpha=255
+TransparentTolerence=0
+Transparent=0
+TransparentColor=00000000
+MaintainAspect=0
+Left=0
+Top=0
+Right=2560
+Bottom=20
+UpdateInterval=0
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 0]
+AllowInput=0
+
+[Meter 1]
+Name=Graphics 3
+Group=
+Locking=0
+
+[Source 1]
+Type=TNullCollector
+
+[Output 1]
+Type=TImageOutput
+FilePath=skins\taskbar\memory.png
+MasterAlpha=255
+TransparentTolerence=0
+Transparent=0
+TransparentColor=00000000
+MaintainAspect=0
+Left=2437
+Top=6
+Right=2444
+Bottom=14
+UpdateInterval=0
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 1]
+AllowInput=0
+
+[Meter 2]
+Name=Graphics 6
+Group=
+Locking=0
+
+[Source 2]
+Type=TNullCollector
+
+[Output 2]
+Type=TImageOutput
+FilePath=skins\taskbar\cpu.png
+MasterAlpha=255
+TransparentTolerence=0
+Transparent=0
+TransparentColor=00000000
+MaintainAspect=0
+Left=2414
+Top=6
+Right=2422
+Bottom=14
+UpdateInterval=0
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 2]
+AllowInput=0
+
+[Meter 3]
+Name=Graphics 9
+Group=
+Locking=0
+
+[Source 3]
+Type=TNullCollector
+
+[Output 3]
+Type=TImageOutput
+FilePath=skins\taskbar\gpu.png
+MasterAlpha=255
+TransparentTolerence=0
+Transparent=0
+TransparentColor=00000000
+MaintainAspect=0
+Left=2391
+Top=6
+Right=2399
+Bottom=14
+UpdateInterval=0
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 3]
+AllowInput=0
+
+[Meter 4]
+Name=Meter 3
+Group=
+Locking=0
+
+[Source 4]
+Type=TTextOnlyCollector
+
+[Output 4]
+Type=TPluginOutput
+DLLName=tasks.dll
+Left=60
+Top=2
+Right=2380
+Bottom=32
+UpdateInterval=0
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+Orientation=1
+BtHeight=15
+BtWidht=0
+Space=2
+AutoSize=1
+Border=1
+BorderColorActive=3355443
+BorderColorInactive=3355443
+Titles=1
+FontActive=ProFontWindows
+FontInactive=ProFontWindows
+FontSizeActive=9
+FontFlagsActive=400
+FontSizeInactive=9
+FontFlagsInactive=400
+HorizontalAlign=1
+VerticalAlign=2
+FontColorActive=12307677
+FontColorInactive=3355443
+ShowIcon=0
+Skin=0
+
+[InputController 4]
+AllowInput=1
+
+[InputController 4 Input 0]
+Type=TPluginInput
+DLLName=tasks93.dll
+State=1
+Action=5001
+Commande=1
+
+[Meter 5]
+Name=Meter 4
+Group=
+Locking=0
+
+[Source 5]
+Type=TDateTimeCollector
+Config=ddd, mmm dd %hrr:nn
+TimeOffset=0
+TimeZone=
+
+[Output 5]
+Type=TTextOutput
+Text=%v
+Color=FFDDCCBB
+Align=2
+AlignVertical=0
+FontName=ProFontWindows
+FontSize=9
+FontStyle=[]
+FontCharset=0
+LineSpacing=1
+NrOfDecimals=0
+TabSize=20
+TruncateText=0
+AlwaysTruncateRight=0
+WordWrap=0
+Antialiased=0
+ForceAntialiased=0
+UseSeperators=0
+Scroll=0
+ScrollInterval=1000
+ScrollPause=0
+ScrollPauseInterval=1000
+ScrollSeperator=%sp|%sp
+ScrollDirection=0
+ScrollType=0
+ScrollVerticalOffset=1
+MinDigitsBeforeDP=0
+TextShadow=0
+TextShadowXOffset=0
+TextShadowYOffset=1
+TextShadowColor=FF000000
+Left=2425
+Top=4
+Right=2555
+Bottom=24
+UpdateInterval=0
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 5]
+AllowInput=0
+
+[Meter 6]
+Name=Meter 5
+Group=
+Locking=0
+
+[Source 6]
+Type=TActiveDLLCollector
+DLLName=ProcessInfo.dll
+DLLFunction=ProcessInfo
+
+[Output 6]
+Type=TProgressbarOutput
+Color1=FFDDCCBB
+Color2=FFFF0000
+BGColor=FF333333
+Min=0
+Max=100
+Position=1
+MultiColor=0
+MultiSplits=0
+AllowBGColor=1
+SplitSpacing=10
+SplitByPercent=0
+Reversed=0
+DoGradient=0
+Gradient=64
+ShowRaised=0
+Left=2407
+Top=6
+Right=2409
+Bottom=14
+UpdateInterval=0
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 6]
+AllowInput=0
+
+[Meter 7]
+Name=Meter 7
+Group=
+Locking=0
+
+[Source 7]
+Type=TSpeedfanCollector
+Sensor=0
+SensorType=0
+SFTemperature=0
+
+[Output 7]
+Type=TProgressbarOutput
+Color1=FFDDCCBB
+Color2=FFFF0000
+BGColor=FF333333
+Min=0
+Max=100
+Position=1
+MultiColor=0
+MultiSplits=1
+AllowBGColor=1
+SplitSpacing=10
+SplitByPercent=0
+Reversed=0
+DoGradient=0
+Gradient=64
+ShowRaised=0
+Left=2384
+Top=6
+Right=2386
+Bottom=14
+UpdateInterval=0
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 7]
+AllowInput=0
+
+[Meter 8]
+Name=Desktop 1
+Group=VWM2
+Locking=0
+
+[Source 8]
+Type=TActiveDLLCollector
+DLLName=VirtuaSam.dll
+DLLFunction=isCurrentDesktop
+Param0=1
+Param1=current
+Param2=
+
+[Output 8]
+Type=TImageMeterOutput
+DefaultName=
+Default=0
+MaintainAspectRatio=0
+MasterAlpha=255
+AlertImageFile=
+AlertImageAlpha=255
+Path=C:\Users\25cf\Documents\Customization\Projects\Taskbar\desktop1%v.png
+LoopNTimes=0
+ShowFirstFrameAsLast=0
+NumLoops=0
+Crop=0
+ForceWebUpdate=0
+UpdateWebInterval=5
+Left=2
+Top=74
+Right=13
+Bottom=85
+UpdateInterval=50
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 8]
+AllowInput=1
+
+[InputController 8 Input 0]
+Type=TPluginInput
+DLLName=VirtuaSam.dll
+State=1
+Action=5001
+
+[Meter 9]
+Name=Desktop 4
+Group=VWM2
+Locking=0
+
+[Source 9]
+Type=TActiveDLLCollector
+DLLName=VirtuaSam.dll
+DLLFunction=isCurrentDesktop
+Param0=4
+Param1=current
+Param2=
+
+[Output 9]
+Type=TImageMeterOutput
+DefaultName=
+Default=0
+MaintainAspectRatio=0
+MasterAlpha=255
+AlertImageFile=
+AlertImageAlpha=255
+Path=C:\Users\25cf\Documents\Customization\Projects\Taskbar\desktop4%v.png
+LoopNTimes=0
+ShowFirstFrameAsLast=0
+NumLoops=0
+Crop=0
+ForceWebUpdate=0
+UpdateWebInterval=5
+Left=44
+Top=74
+Right=55
+Bottom=85
+UpdateInterval=50
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 9]
+AllowInput=1
+
+[InputController 9 Input 0]
+Type=TPluginInput
+DLLName=VirtuaSam.dll
+State=1
+Action=5001
+
+[Meter 10]
+Name=Desktop 3
+Group=VWM2
+Locking=0
+
+[Source 10]
+Type=TActiveDLLCollector
+DLLName=VirtuaSam.dll
+DLLFunction=isCurrentDesktop
+Param0=3
+Param1=current
+Param2=
+
+[Output 10]
+Type=TImageMeterOutput
+DefaultName=
+Default=0
+MaintainAspectRatio=0
+MasterAlpha=255
+AlertImageFile=
+AlertImageAlpha=255
+Path=C:\Users\25cf\Documents\Customization\Projects\Taskbar\desktop3%v.png
+LoopNTimes=0
+ShowFirstFrameAsLast=0
+NumLoops=0
+Crop=0
+ForceWebUpdate=0
+UpdateWebInterval=5
+Left=30
+Top=74
+Right=41
+Bottom=85
+UpdateInterval=50
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 10]
+AllowInput=1
+
+[InputController 10 Input 0]
+Type=TPluginInput
+DLLName=VirtuaSam.dll
+State=1
+Action=5001
+
+[Meter 11]
+Name=Desktop 2
+Group=VWM2
+Locking=0
+
+[Source 11]
+Type=TActiveDLLCollector
+DLLName=VirtuaSam.dll
+DLLFunction=isCurrentDesktop
+Param0=2
+Param1=current
+Param2=
+
+[Output 11]
+Type=TImageMeterOutput
+DefaultName=
+Default=0
+MaintainAspectRatio=0
+MasterAlpha=255
+AlertImageFile=
+AlertImageAlpha=255
+Path=C:\Users\25cf\Documents\Customization\Projects\Taskbar\desktop2%v.png
+LoopNTimes=0
+ShowFirstFrameAsLast=0
+NumLoops=0
+Crop=0
+ForceWebUpdate=0
+UpdateWebInterval=5
+Left=16
+Top=74
+Right=27
+Bottom=85
+UpdateInterval=50
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 11]
+AllowInput=1
+
+[InputController 11 Input 0]
+Type=TPluginInput
+DLLName=VirtuaSam.dll
+State=1
+Action=5001
+
+[Meter 12]
+Name=Meter 2
+Group=
+Locking=0
+
+[Source 12]
+Type=TMemoryCollector
+BaseValue=MegaBytes
+ResultType=Used Mem
+MemoryType=Physical
+
+[Output 12]
+Type=TProgressbarOutput
+Color1=FFDDCCBB
+Color2=FFFF0000
+BGColor=FF333333
+Min=0
+Max=3840
+Position=1
+MultiColor=0
+MultiSplits=0
+AllowBGColor=1
+SplitSpacing=10
+SplitByPercent=0
+Reversed=0
+DoGradient=0
+Gradient=64
+ShowRaised=0
+Left=2430
+Top=6
+Right=2432
+Bottom=14
+UpdateInterval=0
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 12]
+AllowInput=0
+
+[Meter 13]
+Name=Graphics 0
+Group=
+Locking=0
+
+[Source 13]
+Type=TNullCollector
+
+[Output 13]
+Type=TImageOutput
+FilePath=skins\taskbar\shadow.png
+MasterAlpha=255
+TransparentTolerence=0
+Transparent=0
+TransparentColor=00000000
+MaintainAspect=0
+Left=0
+Top=19
+Right=2560
+Bottom=40
+UpdateInterval=0
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 13]
+AllowInput=0
+
+[Meter 14]
+Name=Meter 1
+Group=
+Locking=0
+
+[Source 14]
+Type=TTextOnlyCollector
+
+[Output 14]
+Type=TTextOutput
+Text=
+Color=FF000000
+Align=0
+AlignVertical=0
+FontName=Tahoma
+FontSize=8
+FontStyle=[]
+FontCharset=1
+LineSpacing=1
+NrOfDecimals=0
+TabSize=20
+TruncateText=0
+AlwaysTruncateRight=0
+WordWrap=0
+Antialiased=1
+ForceAntialiased=0
+UseSeperators=0
+Scroll=0
+ScrollInterval=1000
+ScrollPause=0
+ScrollPauseInterval=1000
+ScrollSeperator=%sp|%sp
+ScrollDirection=0
+ScrollType=0
+ScrollVerticalOffset=1
+MinDigitsBeforeDP=0
+TextShadow=0
+TextShadowXOffset=1
+TextShadowYOffset=1
+TextShadowColor=FF000000
+Left=0
+Top=20
+Right=1630
+Bottom=40
+UpdateInterval=0
+AllowAlertValue=0
+AllowMaths=0
+AddBackground=0
+Background=00000000
+AddBorder=0
+BorderColor=FF000000
+BorderWidth=1
+Grid=0
+GridColor=FF000000
+GridX=10
+GridY=10
+ShadowXOffset=0
+ShadowYOffset=0
+ShadowColor=00000000
+DoShadow=0
+
+[InputController 14]
+AllowInput=1
+
+[InputController 14 Input 0]
+Type=TPluginInput
+DLLName=ConfigSlider.dll
+State=0
+Action=5010
+ConfigSlider_Y=20
+ConfigSlider_S=20
+ConfigSlider_RETMS=1000
+ConfigSlider_OFFSCREEN=1
+ConfigSlider_InstanceName="Default"
+
+[InputController 14 Input 1]
+Type=TPluginInput
+DLLName=ConfigSlider.dll
+State=0
+Action=5011
+ConfigSlider_Y=-20
+ConfigSlider_S=20
+ConfigSlider_OFFSCREEN=1
+ConfigSlider_InstanceName="Default"
+
+[InputController 14 Input 2]
+Type=TPluginInput
+DLLName=ConfigSlider.dll
+State=0
+Action=5013
+ConfigSlider_Y=-20
+ConfigSlider_S=20
+ConfigSlider_OFFSCREEN=1
+ConfigSlider_InstanceName="Default"
+
+[InputController 14 Input 3]
+Type=TPluginInput
+DLLName=ConfigSlider.dll
+State=0
+Action=5012
+ConfigSlider_Y=20
+ConfigSlider_S=20
+ConfigSlider_OFFSCREEN=1

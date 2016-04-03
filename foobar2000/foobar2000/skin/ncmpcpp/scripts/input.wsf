@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<job id="IncludeExample">
+	<script language="VBScript">
+	<![CDATA[
+		Function WSHInputBox(Message, Title, Value)
+			WSHInputBox = InputBox(Message, Title, Value)
+		End Function
+	]]>
+	</script>
+	<script language="JScript">
+	<![CDATA[
+		args = WScript.Arguments;
+		var WshShell = WScript.CreateObject("WScript.Shell");
+		var fso = new ActiveXObject("Scripting.FileSystemObject");
+		try {
+			ts = fso.OpenTextFile(args(2), 1, false, -1);
+			s = ts.ReadLine();
+			ts.close();
+		} catch(e) {
+			s = ''
+		}
+		var result = WSHInputBox(args(1), args(0), s);
+		if (result != null) {
+			try {
+				ts = fso.OpenTextFile(args(2), 2, true, -1);
+				ts.WriteLine(result);
+				ts.close();
+			} catch(e) {
+				Wscript.Echo("Error saving data!");
+			}
+		}
+	]]>
+	</script>
+</job>
