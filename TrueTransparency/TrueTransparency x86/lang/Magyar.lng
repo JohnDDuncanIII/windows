@@ -1,9 +1,0 @@
-Start=Automatikus indítás
-Skin=Téma
-Lang=Nyelv
-Exclude=Kizárási lista
-Exit=Kilépés
-AddInclude=Hozzáad a futtatható listához
-AddExclude=Hozzáad a nem futtatható listához
-DelInclude=Program eltávolítása futtatható listáról
-DelExclude=Program eltávolítása nem futtatható listáról

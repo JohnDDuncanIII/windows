@@ -1,0 +1,14 @@
+#!/bin/sh
+#export DISPLAY=127.0.0.1:0.0
+#CYGWIN_ROOT=
+#RUN="$CYGWIN_ROOT/bin/run -p /usr/bin"
+#export PATH=.:$CYGWIN_ROOT/bin:$CYGWIN_ROOT/usr/sbin:$CYGWIN_ROOT/usr/bin:
+#$CYGWIN_ROOT/usr/X11R6/bin:$PATH
+#export XAPPLRESDIR=
+#export XCMSDB=
+#export XKEYSYMDB=
+#export XNLSPATH=
+#XWin -clipboard -silent-dup-error &
+#xterm -sb -sl 5000 -bg grey -fg black -font 7x14bold &
+wmaker &
+xterm

@@ -1,0 +1,18 @@
+echo -ne '\e]10;#DDCCBB\a' # Foreground -> base00
+echo -ne '\e]11;#1A1A1A\a' # Background -> base3
+echo -ne '\e]12;#DDCCBB\a' # Cursor -> base1
+echo -ne '\e]4;1;#c72d41\a' # red
+echo -ne '\e]4;2;#85c600\a' # green
+echo -ne '\e]4;3;#ffa600\a' # yellow
+echo -ne '\e]4;4;#0099bc\a' # blue
+echo -ne '\e]4;5;#5b1e35\a' # magenta
+echo -ne '\e]4;6;#446a6b\a' # cyan
+echo -ne '\e]4;7;#dddddd\a' # white (light grey really) -> Base2
+echo -ne '\e]4;8;#2e3537\a' # bold black (i.e. dark grey -> Base03)
+echo -ne '\e]4;9;#ff5d4a\a' # bold red -> orange
+echo -ne '\e]4;10;#b3ff1d\a' # bold green -> base01
+echo -ne '\e]4;11;#ffaa0f\a' # bold yellow -> base00
+echo -ne '\e]4;12;#5cdede\a' # bold blue -> base0
+echo -ne '\e]4;13;#be4773\a' # bold magenta -> violet
+echo -ne '\e]4;14;#57a3d1\a' # bold cyan -> base1
+echo -ne '\e]4;15;#85919b\a' # bold white -> Base3

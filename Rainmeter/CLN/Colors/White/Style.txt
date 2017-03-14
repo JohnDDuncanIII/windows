@@ -1,8 +1,0 @@
-[Style]
-FontFace=Calibri
-FontColor=75,75,75
-FontSize=10
-AntiAlias=1
-
-[Variables]
-TitleColor=35,35,35

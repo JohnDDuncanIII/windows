@@ -1,0 +1,20 @@
+/* for use with Firefox on Windows 10 w/ Aero Glass. Removes the god awful Grey75 titlebar.*/
+#main-window[windowtype="navigator:browser"] {
+background-color: transparent !important;
+}
+.titlebar-button {
+background-color: transparent !important;
+transition: background-color 0.2s ease;
+}
+.titlebar-button > .toolbarbutton-icon {
+list-style-image: none;
+}
+.titlebar-button:hover {
+background-color: rgba(0, 0, 0, 0.15) !important;
+}
+#titlebar-close:hover {
+background-color: #E81123 !important;
+}
+#titlebar-close:hover > .toolbarbutton-icon {
+list-style-image: url("chrome://browser/skin/caption-buttons.svg#close-white") !important;
+}

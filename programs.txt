@@ -1,0 +1,124 @@
+speedfan
+	http://www.almico.com/sfdownload.php
+virtuawin
+	http://virtuawin.sourceforge.net/?page_id=2
+beatnik
+	http://somedec.com/
+	http://xav73.deviantart.com/art/Sektor-beatnik-7197539
+samurize
+	http://www.samurize.com/modules/mydownloads/
+	http://nardoxic.deviantart.com/art/SDT-153359546
+	http://neomammut.deviantart.com/art/NUN-Samurize-System-37802951
+launchy
+	https://www.launchy.net/download.php#windows
+cygwin (C:\cygwin64)
+	   https://cygwin.com/
+	   https://github.com/ahodesuka/getmpd
+emacs (C:\bin\emacs)
+	  /cygssh:duncjo01@cs20.cc.gettysburg.edu#222:/Accounts/turing/students/s17/duncjo01/public_html/
+	  https://github.com/d5884/fakecygpty
+	  https://www.emacswiki.org/emacs/SshWithNTEmacs
+mactype
+	http://www.mactype.net/
+	https://github.com/snowie2000/mactype
+glass8
+	http://www.glass8.eu/
+7zip
+	http://www.7-zip.org/
+mobaxterm
+	http://mobaxterm.mobatek.net/download-home-edition.html
+tranmission
+	https://transmissionbt.com/download/
+popcorntime
+	https://popcorntime.sh/
+adwcleaner
+	https://toolslib.net/downloads/viewdownload/1-adwcleaner/
+jrt
+	https://www.malwarebytes.com/junkwareremovaltool/
+	http://www.bleepingcomputer.com/download/junkware-removal-tool/
+f2k
+	http://www.foobar2000.org/download
+mpv
+	https://mpv.srsfckn.biz/
+livestreamer
+	https://github.com/streamlink/streamlink/releases
+youtube-dl
+	https://rg3.github.io/youtube-dl/download.html
+mty_cl
+	https://github.com/madsbuvi/MTY_CL
+licecap
+	http://www.cockos.com/licecap/
+dolphin-emu
+	https://dolphin-emu.org/download/
+cpu-z
+	http://www.cpuid.com/softwares/cpu-z.html
+radeonpro
+	http://www.radeonpro.info/download/
+speccy
+	https://www.piriform.com/speccy/download
+gimp
+	https://www.gimp.org/downloads/
+honeyvview
+	http://www.bandisoft.com/honeyview/
+firefox
+	http://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central/
+	https://addons.mozilla.org/en-US/firefox/collections/JohnDuncan/
+	http://www.askvg.com/tip-get-colored-titlebar-back-in-mozilla-firefox-in-windows-10/
+	https://userstyles.org/styles/83431/minimal-floating-scrollbars-for-firefox-windows
+	https://userstyles.org/styles/95554/mac-os-x-scrollbars-for-firefox
+seamonkey
+	http://www.seamonkey-project.org/
+anydvd
+	https://www.redfox.bz/en/anydvdhd.html
+autohotkey
+	https://autohotkey.com/
+clover
+	http://ejie.me/
+coretemp
+	http://www.alcpu.com/CoreTemp/
+flux
+	https://justgetflux.com/
+fresh
+	http://fresh.flatassembler.net/
+jpegview
+	https://sourceforge.net/projects/jpegview/
+resedit
+	http://www.resedit.net/
+sonique
+	http://www.glop.org/sonique/
+wmc
+	https://betanews.com/2016/09/08/how-to-install-windows-media-center-on-windows-10-anniversary-update/
+theme
+
+
+bad software that may be needed:
+rainmeter
+	https://www.rainmeter.net/
+	http://www.deviantart.com/art/CLN-216978446
+unlockler
+	https://unlocker.en.softonic.com/
+	http://www.emptyloop.com/unlocker/
+elpis (pandora)
+	  https://github.com/adammhaile/Elpis
+steam
+	http://store.steampowered.com/
+itunes
+	http://www.apple.com/itunes/affiliates/download/
+java
+	https://java.com/en/download/
+silverlight
+	https://www.microsoft.com/silverlight/
+skype
+	https://www.skype.com/en/
+
+w7 stuff
+	http://kizza1994.deviantart.com/art/Logon-Workshop-265186911
+   	http://bruellkaefer.deviantart.com/art/Aero-Login-317672883
+   	http://droidx762.deviantart.com/art/Aero-Peek-Start-Button-192904838?hf=1
+   	http://drovinth.deviantart.com/art/Big-Sliding-Start-Orb-277608314
+	http://drovinth.deviantart.com/art/Sliding-Start-Orb-260974030
+	http://givesnofuck.deviantart.com/art/Bello-346067953
+	https://github.com/onodera-punpun/Phosphene-win
+	http://minhtrimatrix.deviantart.com/art/Radiance-275379161
+	http://minhtrimatrix.deviantart.com/art/Elune-199350232
+	http://mannmitdertarnjacke.deviantart.com/art/Aurora-287069107
