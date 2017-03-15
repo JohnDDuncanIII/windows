@@ -2,13 +2,9 @@ speedfan
 	http://www.almico.com/sfdownload.php
 virtuawin
 	http://virtuawin.sourceforge.net/?page_id=2
-beatnik
-	http://somedec.com/
-	http://xav73.deviantart.com/art/Sektor-beatnik-7197539
-samurize
-	http://www.samurize.com/modules/mydownloads/
-	http://nardoxic.deviantart.com/art/SDT-153359546
-	http://neomammut.deviantart.com/art/NUN-Samurize-System-37802951
+
+chatzilla
+	http://chatzilla.hacksrus.com/motifs/ (bliss)
 launchy
 	https://www.launchy.net/download.php#windows
 cygwin (C:\cygwin64)
@@ -80,18 +76,60 @@ flux
 	https://justgetflux.com/
 fresh
 	http://fresh.flatassembler.net/
-jpegview
-	https://sourceforge.net/projects/jpegview/
 resedit
 	http://www.resedit.net/
-sonique
-	http://www.glop.org/sonique/
+
 wmc
 	https://betanews.com/2016/09/08/how-to-install-windows-media-center-on-windows-10-anniversary-update/
-theme
+
+-- retro --
+samurize
+	http://www.samurize.com/modules/mydownloads/
+	http://nardoxic.deviantart.com/art/SDT-153359546
+	http://neomammut.deviantart.com/art/NUN-Samurize-System-37802951
+jpegview
+	https://sourceforge.net/projects/jpegview/
+sonique
+	http://www.glop.org/sonique/
+beatnik
+	http://somedec.com/
+	http://xav73.deviantart.com/art/Sektor-beatnik-7197539
+	http://www.wincustomize.com/explore/beatnik/92/
+	http://glaurung.deviantart.com/art/SilverWood-83393
+	http://www.wincustomize.com/explore/beatnik/92/
+	http://pixtudio.deviantart.com/art/attacker-8683
+	http://www.wincustomize.com/explore/beatnik/20/
+	http://arcticninja.deviantart.com/art/Mac-OS-X-Skin-37644
+	http://murkworks.deviantart.com/art/BeSlim-18604
+	http://www.wincustomize.com/explore/beatnik/30/
+	http://customize.org/beatnik/skins/6045
+	http://agneva.deviantart.com/art/SnowCube-1188001
+	http://www.wincustomize.com/explore/beatnik/188/
+	http://murkworks.deviantart.com/art/Tubes-18603
+	http://titanpsp.deviantart.com/art/Media-Monks-181221
+	http://www.wincustomize.com/explore/beatnik/93/
+	http://www.wincustomize.com/explore/beatnik/368/
+xxcalc
+	http://customize.org/xxcalc/skins/5800
+winamp
+	http://customize.org/winamp/skins/3968
+	http://customize.org/winamp/skins/4491
+	http://customize.org/winamp/skins/4486
+	http://customize.org/winamp/skins/3972
+	http://customize.org/winamp/skins/4096
+	http://customize.org/winamp/skins/3447
+	http://customize.org/winamp/skins/3967
+	http://customize.org/winamp/skins/4480
+	http://customize.org/winamp/skins/4481
+	http://customize.org/winamp/skins/3865
+	http://customize.org/winamp/skins/4138
+	http://web.archive.org/web/20060924115558/http://www.xmms.org/files/Skins/XawMMS.zip
+	http://web.archive.org/web/20060924115308/http://www.xmms.org/files/Skins/eMac_Xmms_color_schemes.zip
+	web.archive.org/web/20060924115511/http://www.xmms.org/files/Skins/BlueSteel.zip
+	web.archive.org/web/20060924115504/http://www.xmms.org/files/Skins/NeXTAmp2-1.0pre1.zip
 
 
-bad software that may be needed:
+ -- bad software (that may be needed) --
 rainmeter
 	https://www.rainmeter.net/
 	http://www.deviantart.com/art/CLN-216978446

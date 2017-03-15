@@ -1,0 +1,61 @@
+## Video ##
+vo=opengl-hq:dwmflush=windowed
+display-fps=60.0
+hwdec=vdpau
+
+## Audio ##
+# audio-channels=2
+#af=bs2b=fcut=500:feed=80
+
+## Subs ##
+#ass-force-style=Kerning=yes
+#ass-vsfilter-color-compat=no
+#demuxer-mkv-subtitle-preroll
+#sub-text-font="OpenSans-Semibold"
+#sub-text-font-size=60
+#sub-text-margin-y=24
+#sub-text-color="#FFFFFF"
+#sub-text-border-color="#000000"
+#sub-text-border-size=2
+#sub-text-shadow-offset=1.25
+#sub-text-shadow-color="#303030"
+#sub-text-spacing=0
+
+## OSD ##
+#osd-font="OpenSans-Semibold"
+#osd-font-size=42
+#osd-bar-h=5
+#osd-bar-w=90
+#osd-bar-align-y=0.5
+#osd-color='#FFFFFF'
+#osd-border-color='#000000'
+#osd-border-size=2
+#osd-shadow-offset=1.25
+#osd-shadow-color='#303030'
+#osd-spacing=0
+
+## Tracks ##
+#alang=jpn,jap,Japanese,en,eng,English
+#slang=jpn,jap,Japanese,en,eng,English
+
+## Screenshots ##
+screenshot-format=png
+screenshot-png-filter=0
+screenshot-png-compression=4
+screenshot-template=~/mpv_ss_%tY.%tm.%td_%tH:%tM:%tS
+
+## Other ##
+#fullscreen
+#no-border
+#geometry=50%:50%
+no-border
+script-opts=osc-layout=slimbox
+#box, slimbox, bottombar, topbar
+[extension.webm]
+loop-file=inf
+
+[vo.vdpau]
+#vo=vdpau:output_surfaces=15:queuetime_fs=1500
+#vf=vdpaupp:hqscaling=1
+#hwdec=vdpau
+#sws-scaler=x
