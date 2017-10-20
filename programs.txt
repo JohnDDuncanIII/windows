@@ -1,24 +1,55 @@
+ti-83
+	https://sites.google.com/site/ti83interactivecalculator/calculator
+sysinternals
+	https://docs.microsoft.com/en-us/sysinternals/downloads/
+plus!
+	https://archive.org/download/MicrosoftPlusCollection.7z
+winaero tweaker
+	http://winaero.com/comment.php?comment.news.1836
 speedfan
 	http://www.almico.com/sfdownload.php
 virtuawin
 	http://virtuawin.sourceforge.net/?page_id=2
-
+bluescreenview
+	http://www.nirsoft.net/utils/blue_screen_view.html
 chatzilla
 	http://chatzilla.hacksrus.com/motifs/ (bliss)
 launchy
 	https://www.launchy.net/download.php#windows
+apple hfs+ driver
+	https://forums.macrumors.com/threads/apple-hfs-windows-driver-download.1368010/
+	https://www.youtube.com/watch?v=MUZt3-Y0Dac
+	https://news.ycombinator.com/item?id=9968345
+windirstat
+	https://windirstat.net/
+hdhomerun
+	http://my.hdhomerun.com/instructions/index.html
+	https://www.silicondust.com/support/downloads/
+vdos
+	https://sourceforge.net/projects/vdos/
+plex
+	https://www.plex.tv/
+	https://github.com/zynine-/HDHRViewerV2.bundle
+texlive
+	https://www.tug.org/texlive/
 cygwin (C:\cygwin64)
-	   https://cygwin.com/
-	   https://github.com/ahodesuka/getmpd
+	https://cygwin.com/
+	https://github.com/ahodesuka/getmpd
+	nginx
+	https://www.mail-archive.com/cygwin@cygwin.com/msg151648.html
+Ubuntu Subsystem for Windows
+	https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
 emacs (C:\bin\emacs)
-	  /cygssh:duncjo01@cs20.cc.gettysburg.edu#222:/Accounts/turing/students/s17/duncjo01/public_html/
-	  https://github.com/d5884/fakecygpty
-	  https://www.emacswiki.org/emacs/SshWithNTEmacs
+	/cygssh:duncjo01@cs20.cc.gettysburg.edu#222:/Accounts/turing/students/s17/duncjo01/public_html/
+	https://github.com/d5884/fakecygpty
+	https://www.emacswiki.org/emacs/SshWithNTEmacs
 mactype
 	http://www.mactype.net/
 	https://github.com/snowie2000/mactype
 glass8
 	http://www.glass8.eu/
+	http://www.glass8.eu/files/AeroGlassGUI.7z
+	http://www.msfn.org/board/topic/170233-aero-glass-themeatlas/
 7zip
 	http://www.7-zip.org/
 mobaxterm
@@ -36,6 +67,9 @@ f2k
 	http://www.foobar2000.org/download
 mpv
 	https://mpv.srsfckn.biz/
+	https://sourceforge.net/projects/mpv-player-windows/files/64bit/
+fontforge
+	https://github.com/fontforge/fontforge/releases
 livestreamer
 	https://github.com/streamlink/streamlink/releases
 youtube-dl
@@ -46,6 +80,7 @@ licecap
 	http://www.cockos.com/licecap/
 dolphin-emu
 	https://dolphin-emu.org/download/
+	http://zadig.akeo.ie/
 cpu-z
 	http://www.cpuid.com/softwares/cpu-z.html
 radeonpro
@@ -54,8 +89,10 @@ speccy
 	https://www.piriform.com/speccy/download
 gimp
 	https://www.gimp.org/downloads/
-honeyvview
+honeyview
 	http://www.bandisoft.com/honeyview/
+irfanview
+	http://www.irfanview.com/
 firefox
 	http://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central/
 	https://addons.mozilla.org/en-US/firefox/collections/JohnDuncan/
@@ -64,12 +101,22 @@ firefox
 	https://userstyles.org/styles/95554/mac-os-x-scrollbars-for-firefox
 seamonkey
 	http://www.seamonkey-project.org/
+dolphin
+	https://dolphin-emu.org/download/
+	https://www.reddit.com/r/SSBM/comments/6durc2/guide_enabling_high_priority_packets_in_dolphin/
 anydvd
 	https://www.redfox.bz/en/anydvdhd.html
 autohotkey
 	https://autohotkey.com/
 clover
 	http://ejie.me/
+qttabbar
+	http://qttabbar.wikidot.com/
+bug.n
+	https://github.com/fuhsjr00/bug.n
+bblean
+	http://bb4win.sourceforge.net/bblean/
+	http://blackbox4windows.com/index.php?/topic/123-mojmirs-build/
 coretemp
 	http://www.alcpu.com/CoreTemp/
 flux
@@ -78,9 +125,29 @@ fresh
 	http://fresh.flatassembler.net/
 resedit
 	http://www.resedit.net/
-
+golang
+	https://golang.org/dl/
 wmc
 	https://betanews.com/2016/09/08/how-to-install-windows-media-center-on-windows-10-anniversary-update/
+unarchiver
+	https://unarchiver.c3.cx/commandline
+
+windows store
+	twitter
+	fios mobile
+	messenger
+	facebook
+	hdhomerun
+	mpeg2 video extension
+
+http://stackoverflow.com/questions/35494953/is-there-a-way-to-change-the-style-of-all-scrollbars-win10
+https://www.reddit.com/r/pcgaming/comments/6kry64/protip_windows_automatically_compresses_wallpaper/
+http://winaero.com/blog/how-to-get-the-old-alt-tab-dialog-in-windows-10/
+http://www.msfn.org/board/topic/170375-oldnewexplorer-118/
+https://neiio.deviantart.com/art/Blank-It-631635180
+https://vishal-gupta.deviantart.com/art/Windows-10-Taskbar-Context-Menu-Tweaker-585978663
+http://startisback.com/
+http://winaero.com/blog/old-classic-sticky-notes-for-windows-10/
 
 -- retro --
 samurize

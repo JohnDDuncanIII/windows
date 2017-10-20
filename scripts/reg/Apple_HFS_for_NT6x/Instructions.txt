@@ -1,0 +1,16 @@
+
+How to Install Apple HFS+ Driver:
+    1. Uninstall MacDrive/Paragon
+    2. Copy AppleHFS.sys & AppleMNT.sys to C:\Windows\System32\drivers\
+    3. Merge Add_AppleHFS.reg
+    4. Restart
+
+How to Remove Apple HFS+ Driver:
+    1. Browse to C:\Windows\System32\drivers\
+    2. Move AppleHFS.sys & AppleMNT.sys to the Recycle Bin
+    3. Merge Remove_AppleHFS.reg
+    4. Restart
+
+
+
+Note: This driver is only supports for 64-bit versions of Windows.
